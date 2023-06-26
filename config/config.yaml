@@ -1,0 +1,6 @@
+PrivateKey: APrivateKey1zkp8y6g3sDa1236qegCRnS3uMQj2kiKgQC8VT7CdknougHD
+ViewKey: AViewKey1f2WRq1jxz8XDZsQbdNTwFy66Ng3wftSpDCvv6YZpzTht
+Address: aleo19gk0kavcnaj6449yxjg3r6yl2nvf33khcvtsjcg42lmvh63seg8s9m846l
+ApiUrl: https://vm.aleo.org/api/testnet3/transaction/
+RedisServer: 172.18.10.46:6379
+Contract: game_2ase7z.aleo

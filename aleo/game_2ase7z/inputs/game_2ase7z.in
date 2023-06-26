@@ -1,0 +1,47 @@
+// The program input for game_2ase7z/src/main.leo
+[create_game]
+addr: address = aleo1ghw7ueamzhdqpj6g76zqerkhf42z8hnvpr6r00ve0v8tfyey0sgszwkz3g;
+game_id: field = 12345678998765432123456789098765field;
+player: field = 123456789987654321234567890900988field;
+
+[join_game]
+gameInfo: GameInfo = GameInfo {
+    addr: aleo1sa7eza0p3l23jeqrt75ch5efmh0lpnd8840xh72utfk2826eqqfq95h6gv,
+    gates: 0u64,
+    game_id: 12345678998765432123456789098765field,
+    player_a: 123456789987654321234567890900988field,
+    player_b: 0field,
+};
+player: field = 123456789987654321234567890900898field;
+
+[start_game]
+gameInfo: GameInfo = GameInfo {
+    addr: aleo1sa7eza0p3l23jeqrt75ch5efmh0lpnd8840xh72utfk2826eqqfq95h6gv,
+    gates: 0u64,
+    game_id: 12345678998765432123456789098765field,
+    player_a: 123456789987654321234567890900988field,
+    player_b: 123456789987654321234567890900898field,
+};
+play_id: field = 1field;
+player: field = 123456789987654321234567890900988field;
+hand_num: u8 = 1u8;
+
+[finish_game]
+player_a: PlayRecord = PlayRecord {
+   owner: aleo1sa7eza0p3l23jeqrt75ch5efmh0lpnd8840xh72utfk2826eqqfq95h6gv,
+   gates: 0u64,
+   game_id: 12345678998765432123456789098765field,
+   play_id: 1field,
+   player: 123456789987654321234567890900988field,
+   hand_num: 1u8,
+   _nonce: 3072959356235776489245304298606960492454597300746301528293287063348983135376group,
+};
+player_b: PlayRecord = PlayRecord {
+   owner: aleo1sa7eza0p3l23jeqrt75ch5efmh0lpnd8840xh72utfk2826eqqfq95h6gv,
+   gates: 0u64,
+   game_id: 12345678998765432123456789098765field,
+   play_id: 1field,
+   player: 123456789987654321234567890900898field,
+   hand_num: 2u8,
+   _nonce: 3072959356235776489245304298606960492454597300746301528293287063348983135376group,
+};

@@ -1,0 +1,10 @@
+{
+    "program": "game_2ase7z.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkp8y6g3sDa4321qegCRnS3uMQj2kiKgQC8VT7CdknougHD",
+        "address": "aleo19gk0kavcnaj1234yxjg3r6yl2nvf33khcvtsjcg42lmvh63seg8s9m846l"
+    },
+    "license": "MIT"
+}
