@@ -31,6 +31,7 @@ Backend Deployment
 
 leoDeployment
 - `cd aleo/game_2ase7z && leo build`
+  
   snarkos developer deploy "game_2ase7z.aleo" --private-key "APrivateKey11111111"  --query "https://vm.aleo.org/api"  --path "game_2ase7z/build/"  --broadcast "https://vm.aleo.org/api/testnet3/transaction/broadcast"  --fee 400000  --record "$RECORD"
 
 
