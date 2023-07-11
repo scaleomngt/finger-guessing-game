@@ -26,6 +26,7 @@ Frontend Deployment
 (3) Step 3: Access the configured IP address and port in a browser to use the application
 
 Backend Deployment
+
     go build
 
 leoDeployment
