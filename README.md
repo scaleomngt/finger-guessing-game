@@ -16,6 +16,7 @@ Installation Instructions
 Frontend Deployment
 
 (1) Step 1: Download the dependencies required for the program
+   
     npm install
 
 (2) Step 2: Verify if all dependencies are successfully downloaded by running the program locally
